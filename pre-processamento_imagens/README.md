@@ -6,19 +6,20 @@
 
 ## Dúvidas sobre o assunto
 - Como aumentar o realce de contraste para diferenciar plantas com morfologias parecidas em imagens?
-  - Equalização de histogramas
-  - Aplicação do método CLAHE
-  - Utilizar curvas de nível para diferenciar tonalidades semelhantes mas não iguais
-  - Segmentação de cores
-  - Transformações de cores
-  - Filtros de detecção de bordas
-  - Algoritmo de Watershed
-  - Filtro de Gabor
-  - Análise de textura com Haralick
-  - Sharpness/Unsharp Masking
-  - High-pass filter
-  - Análise Multiespectral
-  - Machine Learning/Deep Learning
+  - Ler um pouco sobre esses tópicos:
+    - Equalização de histogramas
+    - Aplicação do método CLAHE
+    - Utilizar curvas de nível para diferenciar tonalidades semelhantes mas não iguais
+    - Segmentação de cores
+    - Transformações de cores
+    - Filtros de detecção de bordas
+    - Algoritmo de Watershed
+    - Filtro de Gabor
+    - Análise de textura com Haralick
+    - Sharpness/Unsharp Masking
+    - High-pass filter
+    - Análise Multiespectral
+    - Machine Learning/Deep Learning
 
 ## Sites de leitura inicial sobre o assunto
 - [O que é Image Preprocessing?](https://glossario.maiconramos.com/glossario/o-que-e-image-preprocessing-pre-processamento-de-imagens-em-ia/)
