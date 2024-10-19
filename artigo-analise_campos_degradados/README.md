@@ -1,0 +1,4 @@
+# ANÁLISE DE IMAGENS DE PASTAGENS DEGRADADAS PARA IDENTIFICAÇÃO DE ELEMENTOS AMBIENTAIS
+## Tencnologias utilizadas
+- YOLO
+- Redes Neurais Convolucionais
