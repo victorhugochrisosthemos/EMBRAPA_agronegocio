@@ -2,7 +2,8 @@
 
 ## [O que é Image Preprocessing?](https://glossario.maiconramos.com/glossario/o-que-e-image-preprocessing-pre-processamento-de-imagens-em-ia/)
 - A fim de melhorar a precisão e a confiabilidade das imagens, é necessário melhorar a qualidade das imagens antes de manipulá-las com algoritmos de IA
-
+- Passos do pré-processamento são: redimensionamento, normalização, remoção de ruído, segmentação, extração de características, augmentation e codificação
+- Aplicações do pré-processamento são: reconhecimento de objetos, detecção de rosto, diagnóstico médico
 
 ## [Pré-Processamento de Imagens para Visão Computacional](https://medium.com/@denise_marti/pr%C3%A9-processamento-de-imagens-abb25cc48eb4)
 
