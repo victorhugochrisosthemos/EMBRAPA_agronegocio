@@ -21,7 +21,7 @@
     - Análise Multiespectral
     - Machine Learning/Deep Learning
 
-## Qual é o valor mínimo de imagens para gerar um aprendizado e máquina eficiente?
+- Qual é o valor mínimo de imagens para gerar um aprendizado e máquina eficiente?
 
 ## Sites de leitura inicial sobre o assunto
 - [O que é Image Preprocessing?](https://glossario.maiconramos.com/glossario/o-que-e-image-preprocessing-pre-processamento-de-imagens-em-ia/)
