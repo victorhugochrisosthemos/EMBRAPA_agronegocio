@@ -1,9 +1,21 @@
 # Identificação de Solo Exposto e Cupinzeiros em Pastagens
 
-- TCC focado no desenvolvimento de um modelo de
-classificação de aprendizado de máquina supervisionado, usando a ferramenta YOLO nesse processo para as identificações do projeto
+- TCC focado na identificação de áreas de pasto, solo exposto e cupinzeiros a partir do aprendizado de máquina e visão computacional
+- Criou-se uma base de dados com imagens rotuladas em área de pasto, solo exposto e cupinzeiros
+- Base de dados vinda do Laboratório de Processamento de Imagens e Geoprocessamento (LAPIG), da Universidade Federal de Goiás (UFG)
+      - As imagens não possuem padrão de captura
+      - Não tinha tempo hábil para categorizar toodas as imagens
+- Utilizou a ferramenta Label Studio para rotular as imagens
+- Utilizado algoritmos YOLOv4 e YOLOv8 para criar um modelo de classificação das imagens
+- A análise do desempenho mostrou-se insatisfatório em confiabilidade de predição e recall
+      - Baixa qualidade da base de dados (página 76, linha 2)
+      - Quantidade reduzida de exemplares para treinamento (página 76, linha 2)
 - Classificações possíveis de diferenciação das plantas:
     - Usar índice sensível a clorofila nas plantas
     - Índice de Vegetação por Diferença Normalizada
-- Base de dados vinda do Laboratório de Processamento de Imagens e Geoprocessamento (LAPIG), da Universidade Federal de Goiás (UFG)
+- Para resultados melhores
+  -  Qualidade da captura das imagens
+  -  Qualidade das rotulações
+  -  Quantidade de exemplares
+- TIC = Tecnologia da Informação e Comunicação
 - Pergunta, na hora de fazer rotulações, não seria mais fácil colorir de cores diferentes os tres grupos existentes (solo exposto, pasto e cupim) em cada imagem para rotular ao invés de usar figuras geométricas? Ou treinar com imagens de infravermelho porque a assinatura de calor já faria isso?
