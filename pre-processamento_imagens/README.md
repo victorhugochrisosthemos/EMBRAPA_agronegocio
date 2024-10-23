@@ -4,6 +4,36 @@
 - Passos do pré-processamento são: redimensionamento, normalização, remoção de ruído, segmentação, extração de características, augmentation e codificação
 - Aplicações do pré-processamento são: reconhecimento de objetos, detecção de rosto, diagnóstico médico
 
+### Redimensionamento
+- Adequar as imagens a um tamanho padronizado no dataset
+
+### Normalização
+- Ajuste dos pixels de uma imagem para valores entre 0 e 1, é necessário para facilitar o treinamento na medida em que todas as imagens estão na mesma escala
+
+### Remoção de ruído
+- São imagens que não fazem parte de nenhum grupo a ser definido, suas existência no dataset pode gerar inconsistências
+- É utilizado técnicas para remover essas imagens:
+    - Filtragem mediana
+    - Filtragem gaussiana
+    - Filtragem bilateral
+
+### Segmentação
+- Divide a imagem em partes que facilitem a extração de um objeto
+- Técnicas utilizadas:
+    - Segmentação por detecção de bordas
+    - Segmentação por crescimento de região
+    - Segmentação baseada em limiar
+
+### Extração de características
+- Identificar e selecionar quais objetos da imagens serão relevantes
+
+### Augmentation
+- Criação de novas imagens a partir das originais para aumentar a quantidade de dados para treinamento
+- Utiliza certas técncias: zoom, rotação, espelhamento
+
+### Codificação
+- Adequar as imagens a um tamanho requisitado pelo modelo de aprendizagem de máquina
+
 ## Dúvidas sobre o assunto
 - Como aumentar o realce de contraste para diferenciar plantas com morfologias parecidas em imagens?
   - Ler um pouco sobre esses tópicos:
